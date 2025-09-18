@@ -82,7 +82,7 @@ We progressively test the system on **different dataset sizes**:
    ```bash
    git clone https://github.com/yourusername/sentiment-analysis-nlp.git
    cd sentiment-analysis-nlp
-````
+    ```
 
 2. Install dependencies:
 
@@ -97,12 +97,13 @@ We progressively test the system on **different dataset sizes**:
    * NLTK Movie Reviews: comes with `nltk`.
 
    uncomment on the main.py if needed
+   ```bash
     nltk.download('stopwords')
     nltk.download('punkt')
     nltk.download('wordnet')
     nltk.download('punkt_tab')
     nltk.download('omw-1.4')
-
+   ```
 ---
 
 ## 🏃 How to Run
