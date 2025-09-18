@@ -1,0 +1,223 @@
+=== Running on Rotten Tomatoes (Small) ===
+Preprocessing data...
+TF-IDF vectorizer saved at trained_models\logistic_regression_rotten_tomatoes_small\tfidf_vectorizer.pkl
+
+=== Logistic Regression (Rotten Tomatoes (Small)) ===
+Accuracy: 0.7482
+Precision: 0.7577, Recall: 0.7330, F1: 0.7451
+Confusion Matrix:
+ [[811 251]
+ [286 785]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.74      0.76      0.75      1062
+           1       0.76      0.73      0.75      1071
+
+    accuracy                           0.75      2133
+   macro avg       0.75      0.75      0.75      2133
+weighted avg       0.75      0.75      0.75      2133
+
+Training + Evaluation Time: 5.02 seconds
+Logistic Regression (Rotten Tomatoes (Small)) model saved at trained_models\logistic_regression_rotten_tomatoes_small\logistic_regression_rotten_tomatoes_small.pkl!
+TF-IDF vectorizer saved at trained_models\naive_bayes_rotten_tomatoes_small\tfidf_vectorizer.pkl
+
+=== Naive Bayes (Rotten Tomatoes (Small)) ===
+Accuracy: 0.7529
+Precision: 0.7610, Recall: 0.7404, F1: 0.7506
+Confusion Matrix:
+ [[813 249]
+ [278 793]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.75      0.77      0.76      1062
+           1       0.76      0.74      0.75      1071
+
+    accuracy                           0.75      2133
+   macro avg       0.75      0.75      0.75      2133
+weighted avg       0.75      0.75      0.75      2133
+
+Training + Evaluation Time: 0.85 seconds
+Naive Bayes (Rotten Tomatoes (Small)) model saved at trained_models\naive_bayes_rotten_tomatoes_small\naive_bayes_rotten_tomatoes_small.pkl!
+
+=== Rotten Tomatoes (Small) - Model Comparison Summary ===
+Logistic Regression: Acc=0.7482, Prec=0.7577, Rec=0.7330, F1=0.7451, Time=5.02s
+Naive Bayes: Acc=0.7529, Prec=0.7610, Rec=0.7404, F1=0.7506, Time=0.85s
+
+
+=== Running on NLTK Movie Reviews (Medium) ===
+Preprocessing data...
+TF-IDF vectorizer saved at trained_models\logistic_regression_nltk_movie_reviews_medium\tfidf_vectorizer.pkl
+
+=== Logistic Regression (NLTK Movie Reviews (Medium)) ===
+Accuracy: 0.6702
+Precision: 0.6733, Recall: 0.6808, F1: 0.6771
+Confusion Matrix:
+ [[4200 2171]
+ [2098 4475]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.67      0.66      0.66      6371
+           1       0.67      0.68      0.68      6573
+
+    accuracy                           0.67     12944
+   macro avg       0.67      0.67      0.67     12944
+weighted avg       0.67      0.67      0.67     12944
+
+Training + Evaluation Time: 58.04 seconds
+Logistic Regression (NLTK Movie Reviews (Medium)) model saved at trained_models\logistic_regression_nltk_movie_reviews_medium\logistic_regression_nltk_movie_reviews_medium.pkl!
+TF-IDF vectorizer saved at trained_models\naive_bayes_nltk_movie_reviews_medium\tfidf_vectorizer.pkl
+
+=== Naive Bayes (NLTK Movie Reviews (Medium)) ===
+Accuracy: 0.6772
+Precision: 0.6765, Recall: 0.6982, F1: 0.6872
+Confusion Matrix:
+ [[4177 2194]
+ [1984 4589]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.68      0.66      0.67      6371
+           1       0.68      0.70      0.69      6573
+
+    accuracy                           0.68     12944
+   macro avg       0.68      0.68      0.68     12944
+weighted avg       0.68      0.68      0.68     12944
+
+Training + Evaluation Time: 25.31 seconds
+Naive Bayes (NLTK Movie Reviews (Medium)) model saved at trained_models\naive_bayes_nltk_movie_reviews_medium\naive_bayes_nltk_movie_reviews_medium.pkl!
+
+=== NLTK Movie Reviews (Medium) - Model Comparison Summary ===
+Logistic Regression: Acc=0.6702, Prec=0.6733, Rec=0.6808, F1=0.6771, Time=58.04s
+Naive Bayes: Acc=0.6772, Prec=0.6765, Rec=0.6982, F1=0.6872, Time=25.31s
+
+
+=== Running on IMDb (Large) ===
+Preprocessing data...
+TF-IDF vectorizer saved at trained_models\logistic_regression_imdb_large\tfidf_vectorizer.pkl
+
+=== Logistic Regression (IMDb (Large)) ===
+Accuracy: 0.8847
+Precision: 0.8766, Recall: 0.8976, F1: 0.8869
+Confusion Matrix:
+ [[4324  637]
+ [ 516 4523]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.89      0.87      0.88      4961
+           1       0.88      0.90      0.89      5039
+
+    accuracy                           0.88     10000
+   macro avg       0.88      0.88      0.88     10000
+weighted avg       0.88      0.88      0.88     10000
+
+Training + Evaluation Time: 15.01 seconds
+Logistic Regression (IMDb (Large)) model saved at trained_models\logistic_regression_imdb_large\logistic_regression_imdb_large.pkl!
+TF-IDF vectorizer saved at trained_models\naive_bayes_imdb_large\tfidf_vectorizer.pkl
+
+=== Naive Bayes (IMDb (Large)) ===
+Accuracy: 0.8522
+Precision: 0.8511, Recall: 0.8565, F1: 0.8538
+Confusion Matrix:
+ [[4206  755]
+ [ 723 4316]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.85      0.85      0.85      4961
+           1       0.85      0.86      0.85      5039
+
+    accuracy                           0.85     10000
+   macro avg       0.85      0.85      0.85     10000
+weighted avg       0.85      0.85      0.85     10000
+
+Training + Evaluation Time: 5.16 seconds
+Naive Bayes (IMDb (Large)) model saved at trained_models\naive_bayes_imdb_large\naive_bayes_imdb_large.pkl!
+
+=== IMDb (Large) - Model Comparison Summary ===
+Logistic Regression: Acc=0.8847, Prec=0.8766, Rec=0.8976, F1=0.8869, Time=15.01s
+Naive Bayes: Acc=0.8522, Prec=0.8511, Rec=0.8565, F1=0.8538, Time=5.16s
+
+=== Sentiment Prediction (All Models) ===
+
+
+Enter a movie review (or type 'exit' to quit): This movie was absolutely fantastic! The acting, direction, and soundtrack were all amazing.
+
+Results:
+Logistic Regression Imdb Large: Positive (0.96)
+Logistic Regression Nltk Movie Reviews Medium: Positive (0.81)
+Logistic Regression Rotten Tomatoes Small: Positive (0.62)    
+Naive Bayes Imdb Large: Positive (0.75)
+Naive Bayes Nltk Movie Reviews Medium: Positive (0.71)
+Naive Bayes Rotten Tomatoes Small: Positive (0.69)
+
+Enter a movie review (or type 'exit' to quit): This was a total waste of time. The plot was predictable and boring.
+
+Results:
+Logistic Regression Imdb Large: Negative (1.00)
+Logistic Regression Nltk Movie Reviews Medium: Negative (0.97)
+Logistic Regression Rotten Tomatoes Small: Negative (0.95)
+Naive Bayes Imdb Large: Negative (0.95)
+Naive Bayes Nltk Movie Reviews Medium: Negative (0.90)
+Naive Bayes Rotten Tomatoes Small: Negative (0.93)
+
+Enter a movie review (or type 'exit' to quit): The first half was dull, but the ending really surprised me in a good way.
+
+Results:
+Logistic Regression Imdb Large: Negative (0.62)
+Logistic Regression Nltk Movie Reviews Medium: Positive (0.58)
+Logistic Regression Rotten Tomatoes Small: Negative (0.70)
+Naive Bayes Imdb Large: Negative (0.68)
+Naive Bayes Nltk Movie Reviews Medium: Negative (0.58)
+Naive Bayes Rotten Tomatoes Small: Negative (0.71)
+
+Enter a movie review (or type 'exit' to quit): exit
+
+📊 Predictions Table:
+
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+|    | review                                                | Logistic Regression Imdb Large   | Logistic Regression Nltk Movie Reviews Medium   | Logistic Regression Rotten Tomatoes Small   | Naive Bayes Imdb Large   | Naive Bayes Nltk Movie Reviews Medium   | Naive Bayes Rotten Tomatoes Small   |  
++====+=======================================================+==================================+=================================================+=============================================+==========================+=========================================+=====================================+  
+|  0 | This movie was absolutely fantastic! The acting an... | Positive (0.79)                  | Positive (0.73)                                 | Positive (0.57)                             | Positive (0.77)          | Positive (0.74)                         | Positive (0.63)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+|  1 | I found the film boring and predictable, nothing s... | Negative (0.99)                  | Negative (0.84)                                 | Negative (0.82)                             | Negative (0.76)          | Negative (0.74)                         | Negative (0.76)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+|  2 | Some parts were slow, but overall the story was he... | Positive (0.74)                  | Positive (0.69)                                 | Positive (0.69)                             | Positive (0.76)          | Positive (0.61)                         | Positive (0.74)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+|  3 | A masterpiece — brilliant performances and a power... | Positive (1.00)                  | Positive (0.94)                                 | Positive (0.94)                             | Positive (0.88)          | Positive (0.84)                         | Positive (0.89)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+|  4 | Terrible acting and a weak script ruined what coul... | Negative (1.00)                  | Negative (0.93)                                 | Negative (0.80)                             | Negative (0.92)          | Negative (0.82)                         | Negative (0.78)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+|  5 | I enjoyed every scene, the soundtrack was perfect ... | Positive (0.99)                  | Positive (0.80)                                 | Positive (0.54)                             | Positive (0.82)          | Positive (0.72)                         | Positive (0.57)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+|  6 | The plot made no sense and the characters felt one... | Negative (0.91)                  | Negative (0.71)                                 | Negative (0.67)                             | Negative (0.73)          | Negative (0.62)                         | Negative (0.56)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+|  7 | It was okay, some funny moments but not memorable.... | Positive (0.62)                  | Positive (0.71)                                 | Positive (0.78)                             | Positive (0.52)          | Positive (0.60)                         | Positive (0.66)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+|  8 | One of the best films I’ve seen in years, it kept ... | Positive (0.95)                  | Positive (0.71)                                 | Positive (0.65)                             | Positive (0.67)          | Positive (0.57)                         | Negative (0.56)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+|  9 | The pacing was uneven and the movie felt unnecessa... | Negative (0.68)                  | Negative (0.60)                                 | Negative (0.84)                             | Negative (0.60)          | Negative (0.56)                         | Negative (0.74)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+| 10 | The visuals were stunning, but the story was disap... | Negative (0.69)                  | Negative (0.51)                                 | Positive (0.62)                             | Positive (0.55)          | Positive (0.58)                         | Positive (0.63)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+| 11 | A delightful watch — funny, emotional, and inspiri... | Positive (0.93)                  | Positive (0.74)                                 | Positive (0.85)                             | Positive (0.87)          | Positive (0.68)                         | Positive (0.81)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+| 12 | Flat dialogue and overacting made it hard to enjoy... | Negative (0.77)                  | Negative (0.77)                                 | Negative (0.87)                             | Negative (0.76)          | Negative (0.74)                         | Negative (0.82)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+| 13 | The action scenes were thrilling, but the rest was... | Negative (0.91)                  | Negative (0.79)                                 | Negative (0.88)                             | Negative (0.63)          | Negative (0.64)                         | Negative (0.78)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+| 14 | I wouldn’t recommend this, it was a waste of my ti... | Negative (0.98)                  | Negative (0.86)                                 | Negative (0.79)                             | Negative (0.83)          | Negative (0.75)                         | Negative (0.82)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+| 15 | A strong story with characters you actually care a... | Positive (0.73)                  | Positive (0.53)                                 | Negative (0.64)                             | Positive (0.55)          | Positive (0.53)                         | Negative (0.56)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+| 16 | The ending felt rushed and left too many loose end... | Negative (0.64)                  | Positive (0.76)                                 | Negative (0.71)                             | Negative (0.61)          | Positive (0.65)                         | Negative (0.68)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+| 17 | Brilliant direction and cinematography, I’d watch ... | Positive (0.87)                  | Positive (0.72)                                 | Positive (0.53)                             | Positive (0.64)          | Positive (0.66)                         | Positive (0.54)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+| 18 | Not terrible, but it didn’t live up to the hype....   | Negative (0.99)                  | Negative (0.84)                                 | Negative (0.57)                             | Negative (0.83)          | Negative (0.72)                         | Negative (0.63)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
+| 19 | This movie had heart, humor, and left me smiling....  | Positive (0.73)                  | Positive (0.51)                                 | Positive (0.58)                             | Positive (0.70)          | Positive (0.53)                         | Positive (0.53)                     |  
++----+-------------------------------------------------------+----------------------------------+-------------------------------------------------+---------------------------------------------+--------------------------+-----------------------------------------+-------------------------------------+  
