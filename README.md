@@ -70,8 +70,8 @@ nlp_project_sa_on_movie_review/
 ## 📊 Datasets Used
 We progressively test the system on **different dataset sizes**:
 
-1. **Small (2K reviews)** → NLTK Movie Reviews (`nltk.corpus.movie_reviews`)  
-2. **Medium (10K reviews)** → Rotten Tomatoes (via Hugging Face: `rotten_tomatoes`)  
+1. **Medium (12K reviews)** → NLTK Movie Reviews (`nltk.corpus.movie_reviews`)  
+2. **Small (2K reviews)** → Rotten Tomatoes (via Hugging Face: `rotten_tomatoes`)  
 3. **Large (50K reviews)** → IMDb Large Movie Review Dataset (CSV file)  
 
 ---
