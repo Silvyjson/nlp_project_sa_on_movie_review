@@ -1,12 +1,4 @@
-Got it 👍 — we’ll keep it to **3 datasets** (small → medium → large).
-Here’s a clean **README.md** you can use for your GitHub repo.
-
----
-
-## 📄 `README.md`
-
-```markdown
-# 🎬 Sentiment Analysis on Movie Reviews (NLP Project)
+## 🎬 Sentiment Analysis on Movie Reviews (NLP Project)
 
 This project implements a **sentiment analysis system** that classifies movie reviews as **Positive** or **Negative** using Natural Language Processing (NLP) and Machine Learning techniques.  
 It follows the requirements of the IU project task for **DLBAIPNLP01 – NLP**.
@@ -37,21 +29,39 @@ It follows the requirements of the IU project task for **DLBAIPNLP01 – NLP**.
 ## 📂 Project Structure
 ```
 
-nlp\_project/
+nlp_project_sa_on_movie_review/
 │
-├── preprocessing.py              # text cleaning + TF-IDF
-├── train.py                      # generic training + evaluation logic
-├── main.py                       # runs preprocessing + trains all models + compares
-├── predict.py                    # predict sentiment interactively
+├── preprocessing.py
+├── train.py
+├── main.py
+├── predict.py
+├── predict_csv.py
 │
-├── models/                       # model definitions
-│   ├── logistic\_regression.py
-│   ├── naive\_bayes.py
+├── models/
+│   ├── logistic_regression.py
+│   ├── naive_bayes.py
 │
-├── sentiment\_model\_logistic\_regression.pkl   # saved Logistic Regression model
-├── sentiment\_model\_naive\_bayes.pkl           # saved Naive Bayes model
-├── tfidf\_vectorizer.pkl                      # saved TF-IDF vectorizer
-└── IMDB Dataset.csv                          # dataset (not included in repo by default)
+├── trained_models/
+│   ├── logistic_regression_imdb_large/
+│   ├── logistic_regression_nltk_movie_reviews_medium/
+│   ├── logistic_regression_rotten_tomatoes_small/
+│   ├── naive_bayes_imdb_large/
+│   ├── naive_bayes_nltk_movie_reviews_medium/
+│   ├── naive_bayes_rotten_tomatoes_small/
+│
+├── Datasets/
+│   ├── IMDB Dataset.csv
+│   ├── movie_review.csv
+│   ├── data_rt.csv
+│
+├── test/
+│   └── test_reviews.csv
+│
+├── output/
+│   └── predicted_reviews.csv
+│
+├── requirements.txt
+└── README.md
 
 ````
 
@@ -72,7 +82,7 @@ We progressively test the system on **different dataset sizes**:
    ```bash
    git clone https://github.com/yourusername/sentiment-analysis-nlp.git
    cd sentiment-analysis-nlp
-````
+    ```
 
 2. Install dependencies:
 
@@ -87,12 +97,13 @@ We progressively test the system on **different dataset sizes**:
    * NLTK Movie Reviews: comes with `nltk`.
 
    uncomment on the main.py if needed
+   ```bash
     nltk.download('stopwords')
     nltk.download('punkt')
     nltk.download('wordnet')
     nltk.download('punkt_tab')
     nltk.download('omw-1.4')
-
+   ```
 ---
 
 ## 🏃 How to Run
